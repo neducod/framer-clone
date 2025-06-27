@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: pink;
+    gap: 80px;
+}
+.nav-one{
+    display: flex;
+}
+.nav-one h1{
+    font-size: 16px;
+    color: white;
+}
+.nav-onee ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.nav-onee ul li{
+    list-style-type: none;
+    color: rgba(64, 61, 61, 0.7);
+    cursor: pointer;
+}
+.nav-onee ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+.nav-two a{
+    text-decoration: none;
+    padding: 7px;
+    color: rgba(0,0,0,0.7);
+    transition: 0.3 ease;
+}
+.nav-two a:hover{
+    color: white;
+}
+.nav-two .btn{
+    width: 80px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+}
+.nav-two .btn:hover{
+    background-color: gray;
+    opacity: 1;
+}
+.nav-two .btn a{
+    color: rgba(0,0,0,0.7);
+    text-decoration: none;
+}
