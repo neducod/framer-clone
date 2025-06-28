@@ -161,16 +161,20 @@ body{
 }
 .frame-102-wrapper{
     position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .frame-102-wrapper-overlay{
     position: absolute;
+    /*
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
+    right: 0;*/
     opacity: 0;
     transition: .5s ease;
-    background: linear-gradient(#fff 50%, #D0F939 80%);
     display: flex;
     justify-content: center;
     align-items: center;
