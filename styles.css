@@ -216,20 +216,31 @@ body{
     margin: 100px;
     flex-direction: column;
 }
+.frame-106 video{
+    position: relative;
+}
+.frame-106-wrapper{
+    top: 3300px;
+    position: absolute;
+    margin: auto;
+    width: 400px;
+}
 .frame-106-wrapper-logo{
     display: flex;
     justify-self: center;
 
-    position: relative;
 }
 .frame-106-wrapper p{
     color: white;
 }
+/* .frame-1066-wrapper{ */
+    /* top: 3300px; */
+    /* position: absolute; */
+/* } */
 .frame-106-wrapper h4{
     color: white;
     font-size: 30px;
 
-    position: absolute;
 }
 .frame-106-wrapper .btn{
     width: 170px;
@@ -238,7 +249,6 @@ body{
     border-radius: 12px;
     background-color: white;
 
-    position: absolute;
 }
 .frame-106-wrapper .btn a{
     color: rgb(22, 21, 21);
@@ -251,8 +261,6 @@ body{
     border: none;
     border-radius: 12px;
     background-color: transparent;
-
-    position: absolute;
 }
 .frame-106-wrapper .btnn a{
     color: white;
