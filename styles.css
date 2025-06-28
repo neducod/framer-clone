@@ -195,3 +195,22 @@ body{
     /* opacity: 0.5; */
     color: white;
 }
+.frame-103 {
+    margin: 100px;
+}
+.frame-103 h3{
+    color: white;
+    font-size: 40px;
+    width: 500px;
+}
+.frame-105{
+    color: white;
+    font-size: 40px;
+    width: 400px;
+    margin: 150px auto;
+}
+.frame-106{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
