@@ -219,6 +219,8 @@ body{
 .frame-106-wrapper-logo{
     display: flex;
     justify-self: center;
+
+    position: relative;
 }
 .frame-106-wrapper p{
     color: white;
@@ -226,15 +228,34 @@ body{
 .frame-106-wrapper h4{
     color: white;
     font-size: 30px;
+
+    position: absolute;
 }
 .frame-106-wrapper .btn{
     width: 170px;
-    height: 25px;
-    padding: 10px;
+    padding: 8px;
     border: none;
+    border-radius: 12px;
     background-color: white;
+
+    position: absolute;
 }
 .frame-106-wrapper .btn a{
     color: rgb(22, 21, 21);
     text-decoration: none;
+    font-weight: 300;
+}
+.frame-106-wrapper .btnn{
+    width: 170px;
+    padding: 8px;
+    border: none;
+    border-radius: 12px;
+    background-color: transparent;
+
+    position: absolute;
+}
+.frame-106-wrapper .btnn a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
 }
