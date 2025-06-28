@@ -214,4 +214,27 @@ body{
     justify-content: center;
     align-items: center;
     margin: 100px;
+    flex-direction: column;
+}
+.frame-106-wrapper-logo{
+    display: flex;
+    justify-self: center;
+}
+.frame-106-wrapper p{
+    color: white;
+}
+.frame-106-wrapper h4{
+    color: white;
+    font-size: 30px;
+}
+.frame-106-wrapper .btn{
+    width: 170px;
+    height: 25px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+}
+.frame-106-wrapper .btn a{
+    color: rgb(22, 21, 21);
+    text-decoration: none;
 }
