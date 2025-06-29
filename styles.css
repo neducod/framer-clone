@@ -245,7 +245,7 @@ body{
     width: 200px;
 }
 .frame-106-wrapper .btn{
-    width: 170px;
+    width: 170px; 
     padding: 8px;
     border: none;
     border-radius: 12px;
@@ -258,15 +258,24 @@ body{
     font-weight: 300;
 }
 .frame-106-wrapper .btnn{
-    width: 170px;
+    width: 170px; 
     padding: 8px;
     border: none;
     border-radius: 12px;
     border: 1px solid black;
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: gray;
 }
 .frame-106-wrapper .btnn a{
     color: white;
     text-decoration: none;
     font-weight: 300;
+}
+.frame-107{
+    margin: 130px;
+}
+.frame-107 h4{
+    color: white;
+    font-size: 47px;
+    width: 400px;
 }
