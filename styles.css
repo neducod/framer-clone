@@ -213,34 +213,36 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px;
+     margin: 100px; 
     flex-direction: column;
 }
 .frame-106 video{
     position: relative;
 }
 .frame-106-wrapper{
-    top: 3300px;
+    top: 3200px;
     position: absolute;
     margin: auto;
     width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .frame-106-wrapper-logo{
     display: flex;
     justify-self: center;
-
 }
 .frame-106-wrapper p{
     color: white;
 }
-/* .frame-1066-wrapper{ */
-    /* top: 3300px; */
-    /* position: absolute; */
-/* } */
 .frame-106-wrapper h4{
     color: white;
-    font-size: 30px;
-
+    font-size: 35px;
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    width: 200px;
 }
 .frame-106-wrapper .btn{
     width: 170px;
@@ -260,6 +262,7 @@ body{
     padding: 8px;
     border: none;
     border-radius: 12px;
+    border: 1px solid black;
     background-color: transparent;
 }
 .frame-106-wrapper .btnn a{
