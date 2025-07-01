@@ -308,15 +308,15 @@ body{
 }
 .frame-108-wrapperr img{
     width: 219px;
-}/*
+}
 .frame-1010{
     overflow: hidden;
     width: 100%;
     background: #f0f0f0;
-}/*
+}
 .frame-1010-wrapper{
     display: flex;
-    width: calc(200px * 10); /* 10 slides (5 original + 5 copies) 
+    width: calc(200px * 10); /* 10 slides (5 original + 5 copies) */
     animation: scroll 30s linear infinite;
 }
 .slide {
@@ -336,7 +336,6 @@ body{
     0% { transform: translateX(0); }
     100% { transform: translateX(-50%); }
 }
-*/
 
 
 .frame-1011{
